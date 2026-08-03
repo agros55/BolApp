@@ -1,6 +1,10 @@
 [
     {
         "name":"Campo Ramón",
+        "precio" : "0000"
+    },
+    {
+        "name":"Campo Ramón",
         "precio" : "2500"
     },
     {
