@@ -1,0 +1,50 @@
+{
+    "punto1" : {
+        "name":"Campo Ramón",
+        "precio" : "2500"
+    },
+    "punto2" : {
+        "name":"Villa Bonita",
+        "precio" : "3300"
+    },
+    "punto3" : {
+        "name":"Villa Union",
+        "precio" : "4000"
+    },
+    "punto4" : {
+        "name":"P. Acaraguá",
+        "precio" : "4900"
+    },
+    "punto5" : {
+        "name":"Cnia. Acaraguá",
+        "precio" : "5600"
+    },
+    "punto6" : {
+        "name":"Cruce R103",
+        "precio" : "6400"
+    },
+    "punto7" : {
+        "name":"Col 9 Julio",
+        "precio" : "6900"
+    },
+    "punto8" : {
+        "name":"Santa Rita",
+        "precio" : "8100"
+    },
+    "punto9" : {
+        "name":"Alba Posse",
+        "precio" : "8500"
+    },
+    "punto10" : {
+        "name":"San Francisco",
+        "precio" : "9300"
+    },
+    "punto11" : {
+        "name":"KM 12",
+        "precio" : "10100"
+    },
+    "punto12" : {
+        "name":"25 de Mayo",
+        "precio" : "11800"
+    }
+}

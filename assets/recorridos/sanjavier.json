@@ -1,0 +1,94 @@
+[
+    {
+        "name":"Campo Ramón",
+        "precio" : "2500"
+    },
+    {
+        "name":"Cruce R103",
+        "precio" : "2600"
+    },
+    {
+        "name":"Cruce R103",
+        "precio" : "3100"
+    },
+    {
+        "name":"Villa Bonita",
+        "precio" : "3300"
+    },
+    {
+        "name":"Villa Bonita",
+        "precio" : "3500"
+    },
+    {
+        "name":"Cruce R103",
+        "precio" : "3900"
+    },
+    {
+        "name":"Cruce R103",
+        "precio" : "4000"
+    },
+    {
+        "name":"Villa Bonita",
+        "precio" : "4400"
+    },
+    {
+        "name":"Villa Union",
+        "precio" : "4900"
+    },
+    {
+        "name":"Villa Bonita",
+        "precio" : "5100"
+    },
+    {
+        "name":"P. Acaraguá",
+        "precio" : "5600"
+    },
+    {
+        "name":"Villa Bonita",
+        "precio" : "6000"
+    },
+    {
+        "name":"Cnia. Acaraguá",
+        "precio" : "6400"
+    },
+    {
+        "name":"Cruce R103",
+        "precio" : "6500"
+    },
+    {
+        "name":"Cruce R103",
+        "precio" : "6900"
+    },
+    {
+        "name":"Cruce R103",
+        "precio" : "7400"
+    },
+    {
+        "name":"Col 9 Julio",
+        "precio" : "7600"
+    },
+    {
+        "name":"Cruce R103",
+        "precio" : "8100"
+    },
+    {
+        "name":"Cruce R103",
+        "precio" : "8300"
+    },
+    {
+        "name":"Cruce R103",
+        "precio" : "8900"
+    },
+    {
+        "name":"Santa Rita",
+        "precio" : "9400"
+    },
+    {
+        "name":"Cruce R103",
+        "precio" : "10000"
+    },
+    {
+        "name":"Alba Posse",
+        "precio" : "11000"
+    }
+]

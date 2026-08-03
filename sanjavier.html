@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PasApp - 25 de Mayo</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+
+  <!-- Modal: número de serie del primer boleto -->
+  <div class="modal-overlay" id="modal-serie">
+    <div class="modal">
+      <h2>N° de serie del primer boleto</h2>
+      <input type="number" id="input-serie" inputmode="numeric" placeholder="Ej: 1000" />
+      <button id="btn-comenzar">Comenzar</button>
+    </div>
+  </div>
+
+  <div class="principal">
+    <div class="btn-volver"><a href="./index.html">←</a></div>
+    <h1 class="titulo">San Javier</h1>
+  </div>
+
+  <div class="cuerpo">
+    <div id="recorrido"></div>
+    <div class="botones" id="contenedor-botones"></div>
+  </div>
+
+  <!-- Barra inferior fija -->
+  <div class="resultado">
+    <div class="fila-info">
+      <span id="contador-boletos">Boletos: 0</span>
+      <span id="serie-actual">N° Boleto: —</span>
+      <span id="precio-actual">Precio: —</span>
+    </div>
+    <div class="fila-total">
+      <span id="total">Total: $0</span>
+      <button class="btn-undo" id="btn-deshacer" disabled>Deshacer</button>
+      <button class="btn-reset" id="btn-reiniciar">R</button>
+    </div>
+  </div>
+
+  <script src="assets/js/scriptSJ.js"></script>
+</body>
+</html>

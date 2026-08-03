@@ -1,0 +1,106 @@
+[
+    {
+        "name":"Campo Ramón",
+        "precio" : "2500"
+    },
+    {
+        "name":"Cruce R103",
+        "precio" : "2600"
+    },
+    {
+        "name":"Cruce R103",
+        "precio" : "2700"
+    },
+    {
+        "name":"Villa Bonita",
+        "precio" : "3100"
+    },
+    {
+        "name":"Villa Bonita",
+        "precio" : "3300"
+    },
+    {
+        "name":"Cruce R103",
+        "precio" : "3500"
+    },
+    {
+        "name":"Villa Bonita",
+        "precio" : "3900"
+    },
+    {
+        "name":"Villa Union",
+        "precio" : "4000"
+    },
+    {
+        "name":"Villa Bonita",
+        "precio" : "4400"
+    },
+    {
+        "name":"P. Acaraguá",
+        "precio" : "4900"
+    },
+    {
+        "name":"Villa Bonita",
+        "precio" : "5100"
+    },
+    {
+        "name":"Cnia. Acaraguá",
+        "precio" : "5600"
+    },
+    {
+        "name":"Cruce R103",
+        "precio" : "5800"
+    },
+    {
+        "name":"Cruce R103",
+        "precio" : "6000"
+    },
+    {
+        "name":"Cruce R103",
+        "precio" : "6400"
+    },
+    {
+        "name":"Col 9 Julio",
+        "precio" : "6900"
+    },
+    {
+        "name":"Cruce R103",
+        "precio" : "7400"
+    },
+    {
+        "name":"Cruce R103",
+        "precio" : "7600"
+    },
+    {
+        "name":"Cruce R103",
+        "precio" : "8000"
+    },
+    {
+        "name":"Santa Rita",
+        "precio" : "8100"
+    },
+    {
+        "name":"Cruce R103",
+        "precio" : "8300"
+    },
+    {
+        "name":"Alba Posse",
+        "precio" : "8500"
+    },
+    {
+        "name":"Cruce R103",
+        "precio" : "8900"
+    },
+    {
+        "name":"San Francisco",
+        "precio" : "9300"
+    },
+    {
+        "name":"KM 12",
+        "precio" : "10100"
+    },
+    {
+        "name":"25 de Mayo",
+        "precio" : "11800"
+    }
+]

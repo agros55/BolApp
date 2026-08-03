@@ -1,0 +1,238 @@
+/* body {
+    margin: 0;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo {
+    width: 100%;
+}
+
+#recorrido {
+    text-align: center;
+}
+
+.cuerpo {
+    display: flex;
+    width: 100vw;
+    background-color: blue;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.botones {
+    display: flex;
+    gap: 5px;
+    width: 90%;
+    background-color: aqua;
+    padding: 10px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.btn-precio {
+    width: 45%;
+    padding: 10px 0;
+    font-size: 2rem;
+    font-weight: bold;
+} */
+
+body {
+  margin: 0;
+  width: 100vw;
+  background-color: lightblue;
+  font-family: sans-serif;
+  padding-bottom: 90px; /* espacio para que la barra fija no tape contenido */
+}
+
+.titulo {
+  width: 100%;
+  text-align: center;
+  /* margin: 10px; */
+}
+
+#recorrido {
+  text-align: center;
+}
+
+.cuerpo {
+  display: flex;
+  width: 100vw;
+  background-color: grey;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.botones {
+  display: flex;
+  gap: 8px;
+  width: 90%;
+  background-color: aqua;
+  padding: 5px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.btn-precio {
+  width: 45%;
+  padding: 5px 0;
+  font-size: 2rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.resultado {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #222;
+  color: #fff;
+  padding: 12px 0;
+}
+.fila-info {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+}
+.fila-total {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.btn-reset {
+  font-size: 1.5rem;
+  /* padding: 8px 16px; */
+  cursor: pointer;
+  position: fixed;
+  text-align: center;
+  top: 2vh;
+  right: 2vh;
+  width: 10vw;
+  height: 10vw;
+  border: 3px solid black;
+}
+
+.principal {
+  padding: 0;
+  width: 100vw;
+}
+
+.boton {
+  background-color: blueviolet;
+  width: 70vw;
+  /* b  */
+  color: black;
+  display: flex;
+  justify-content: center;
+  margin: 10px 0;
+  padding: 5px 0;
+}
+.boton a {
+  text-align: center;
+  color: black;
+  font-size: 2rem;
+  text-decoration: none;
+}
+
+.btn-volver {
+  width: 10vw;
+  height: 10vw;
+  border: 3px solid black;
+  background-color: #fff;
+  position: fixed;
+  top: 2vh;
+  left: 2vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-volver a {
+  font-size: 1.5rem;
+  color: black;
+  text-decoration: none;
+}
+
+.btn-undo {
+  font-size: 1rem;
+  padding: 8px 16px;
+  cursor: pointer;
+  background-color: #e67e22;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+}
+
+.btn-undo:disabled {
+  opacity: 0.4;
+  cursor: default;
+}
+
+body {
+  padding-bottom: 140px; /* la barra fija ahora tiene dos filas */
+}
+
+/* Modal número de serie */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+}
+.modal-overlay.oculto {
+  display: none;
+}
+.modal {
+  background-color: #fff;
+  padding: 25px;
+  border-radius: 8px;
+  text-align: center;
+  width: 85%;
+  max-width: 400px;
+}
+.modal h2 {
+  font-size: 1.3rem;
+  margin: 0 0 15px;
+}
+.modal input {
+  width: 80%;
+  font-size: 1.5rem;
+  padding: 8px;
+  text-align: center;
+  margin-bottom: 15px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+}
+.modal button {
+  font-size: 1.2rem;
+  padding: 10px 30px;
+  cursor: pointer;
+  background-color: #2e8b57;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+}
+
+#precio-actual {
+  color: #ffd54f;
+}
